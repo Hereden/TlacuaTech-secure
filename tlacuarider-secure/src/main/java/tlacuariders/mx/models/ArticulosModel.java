@@ -28,11 +28,46 @@ public class ArticulosModel {
 	@Column(nullable = false, length = 255)
 	private String colores;
 	
+	@Column(nullable = false, length = 255)
+	private String url;
+	
+	@Column(nullable = false, length = 255)
+	private String marca;
+	
+	@Column(nullable = false, length = 400)
+	private String especificaciones;
+	
 	@Column(nullable = false)
 	private int categoria;
 	
 	@Column(nullable = false)
 	private float precio;
+	
+	
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+
+	public String getMarca() {
+		return marca;
+	}
+
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+
+	public String getEspecificaciones() {
+		return especificaciones;
+	}
+
+	public void setEspecificaciones(String especificaciones) {
+		this.especificaciones = especificaciones;
+	}
 
 	public int getId() {
 		return id;
