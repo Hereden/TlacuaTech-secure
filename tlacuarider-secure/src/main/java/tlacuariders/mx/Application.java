@@ -1,4 +1,4 @@
-package tlacuariders.mx.Application;
+package tlacuariders.mx;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

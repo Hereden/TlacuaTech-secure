@@ -51,6 +51,7 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
 			.authorizeRequests().antMatchers(HttpMethod.POST,"/pedidos").permitAll().and()
 			.authorizeRequests().antMatchers(HttpMethod.POST,"/ventas").permitAll().and()
 			.authorizeRequests().antMatchers(HttpMethod.GET,"/ventas").permitAll().and()
+			.authorizeRequests().antMatchers(HttpMethod.GET,"/usuarios/").permitAll().and()
 			.authorizeRequests().antMatchers(HttpMethod.POST,"/usuarios/").permitAll()
 			.anyRequest().authenticated().and()
 				.addFilter(new JWTAuthenticationFilter(authenticationManager()))
