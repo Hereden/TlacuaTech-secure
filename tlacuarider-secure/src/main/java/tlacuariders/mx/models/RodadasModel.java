@@ -17,7 +17,7 @@ public class RodadasModel {
 	private int id;
 	
 	@Column(nullable = false, length = 255)
-	private String img;
+	private String url;
 	
 	@Column(nullable = false, length = 255)
 	private String nombre;
@@ -26,7 +26,7 @@ public class RodadasModel {
 	private String descripcion;
 	
 	@Column(nullable = false, length = 255)
-	private String resquisitos;
+	private String requisitos;
 	
 	@Column(nullable = false, length = 255)
 	private String hora_cita;
@@ -89,12 +89,12 @@ public class RodadasModel {
 		this.usuario = usuario;
 	}
 
-	public String getImg() {
-		return img;
+	public String getUrl() {
+		return url;
 	}
 
-	public void setImg(String img) {
-		this.img = img;
+	public void setUrl(String url) {
+		this.url = url;
 	}
 
 	public String getNombre() {
@@ -113,12 +113,13 @@ public class RodadasModel {
 		this.descripcion = descripcion;
 	}
 
-	public String getResquisitos() {
-		return resquisitos;
+	
+	public String getRequisitos() {
+		return requisitos;
 	}
 
-	public void setResquisitos(String resquisitos) {
-		this.resquisitos = resquisitos;
+	public void setRequisitos(String requisitos) {
+		this.requisitos = requisitos;
 	}
 
 	public String getHora_cita() {

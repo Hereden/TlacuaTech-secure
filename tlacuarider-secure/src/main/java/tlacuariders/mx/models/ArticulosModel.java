@@ -19,7 +19,7 @@ public class ArticulosModel {
 	@Column(nullable = false, length = 255)
 	private String nombre;
 	
-	@Column(nullable = false, length = 255)
+	@Column(nullable = false, length = 400)
 	private String descripcion;
 	
 	@Column(length = 255)
