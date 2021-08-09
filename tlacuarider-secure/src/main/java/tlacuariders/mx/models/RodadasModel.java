@@ -43,10 +43,10 @@ public class RodadasModel {
 	@Column(nullable = false, length = 255)
 	private String direccion_fin;
 	
-	@Column(nullable = false, length=255)
+	@Column(length=255)
 	private String punto_encuentro;
 	
-	@Column(nullable = false, length=255)
+	@Column(length=255)
 	private String hora_encuentro;
 	
 	@Column(nullable = false, length=12)

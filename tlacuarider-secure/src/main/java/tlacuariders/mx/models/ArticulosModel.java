@@ -22,19 +22,19 @@ public class ArticulosModel {
 	@Column(nullable = false, length = 255)
 	private String descripcion;
 	
-	@Column(nullable = false, length = 255)
+	@Column(length = 255)
 	private String talla;
 	
-	@Column(nullable = false, length = 255)
+	@Column(length = 255)
 	private String colores;
 	
 	@Column(nullable = false, length = 255)
 	private String url;
 	
-	@Column(nullable = false, length = 255)
+	@Column(length = 255)
 	private String marca;
 	
-	@Column(nullable = false, length = 400)
+	@Column(length = 400)
 	private String especificaciones;
 	
 	@Column(nullable = false)

@@ -54,8 +54,8 @@ public class UsuariosModel {
 	@Column(nullable = false, length = 1)
 	private int genero;
 	
-	@ManyToOne
-    private CodigoPostalModel codigo_postal;
+	//@ManyToOne
+    //private CodigoPostalModel codigo_postal;
 	
 	//@OneToMany(targetEntity = VentasModel.class, mappedBy = "usuario")
 	//@JsonManagedReference
@@ -141,13 +141,7 @@ public class UsuariosModel {
 		this.genero = genero;
 	}
 
-	public CodigoPostalModel getCodigo_postal() {
-		return codigo_postal;
-	}
 
-	public void setCodigo_postal(CodigoPostalModel codigo_postal) {
-		this.codigo_postal = codigo_postal;
-	}
 
 	
 	//@OneToMany(targetEntity = PedidosModel.class, mappedBy = "user")
