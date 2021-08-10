@@ -3,6 +3,7 @@
 
 --INSERT INTO Usuario (username, password) VALUES ('admin', '$2a$10$XURPShQNCsLjp1ESc2laoObo9QZDhxz73hJPaEv7/cBha4pk0AgP.');
 
+insert into usuarios values(1, 'Santi', 'Santiago', 'iztapalapa', 'santasadddia.ga@gmail.com',0, 'Santiago', '$2a$10$BACqxHNqdSrhmVov4Yi5pul4FTZzNOc2i5c7df7X80hiO1eNCxbKu', '5575847584', 'santasadddia.ga@gmail.com');
 
 INSERT INTO articulos(nombre,descripcion,talla,colores,categoria,marca,precio,url,especificaciones) VALUES ('Bicicleta Next Cross Rodada 20 Blanca','Bicicleta para niña tipo Cross0',NULL,NULL,0,NULL,1490,'assets/images/bicisNinos/bici01.jpg','Edad recomendada:9 más Años;Género:Niña;Alto(cm):102;Ancho (cm):135;Fondo(cm):22;Peso (Kg): 12;Modelo:CRDNEXT2001BL;Material: Acero;Garantía:1 Año en cuadro y tijera, llantas y cámaras sin garantía;Rodada:20;gama_color:Blanco;');
 INSERT INTO articulos(nombre,descripcion,talla,colores,categoria,marca,precio,url,especificaciones) VALUES ('Bicicleta Ghost Revenge R29 Verde','Cuenta con palanca de cambios Shimano de 21 velocidades. Doble freno de disco. Rines de pared aerodinámico.',NULL,NULL,0,NULL,6499,'assets/images/bicisNinos/bici02.jpg','Edad recomendada: Adolescentes y adultos;Género: Unisex;Alto (cm): 115;Ancho (cm): 64;Fondo (cm): 172;Peso (Kg): 19.6;Modelo: PTDS2208292166120;Material: Acero y plástico;Garantía: 30 Días directo con proveedor solo en defectos de fábrica;Rodada: Más de 29;Libre de BPA: Si;País de Origen: México; gama_color: Verde;');
